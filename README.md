@@ -3,6 +3,7 @@
 ## Intro
 
 此网站用于追踪购买货期，请在公司内网连接SD_1F路由器后访问[货期查询表](http://192.168.3.21)
+
 ## Prerequisites
 
 你需要有一台安装了php7.0, sqlite3/MySql, Nginx/Apache环境的Linux机器。
@@ -77,7 +78,7 @@ ls /var/www
 
 进入sqlite3之后运行
 ```
-.schema COMPANY;
+.schema COMPANY
 ```
 查看数据库中的表的完整信息。
 
