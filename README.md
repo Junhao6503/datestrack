@@ -71,7 +71,7 @@ ls /var/www
 
 打开浏览器，在地址栏输入Linux机器的固定ip访问网页。
 
-##关于sqlite
+## 关于sqlite
 
 用户可以随时运行`sqlite3 /var/www` 查看数据库情况。
 默认表名字为`COMPANY`
@@ -91,7 +91,7 @@ select * from COMPANY;
 查看表中数据
 
 ### 默认表的详细信息
-默认的表有11列。
+默认的表有11列。     
 1.ID：主键   
 2.NAME：产品名称   
 3.DEPARTMENT：部门   
