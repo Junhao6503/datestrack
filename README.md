@@ -71,7 +71,7 @@ ls /var/www
 
 打开浏览器，在地址栏输入Linux机器的固定ip访问网页。
 
-## 关于sqlite
+### 关于sqlite
 
 用户可以随时运行`sqlite3 /var/www/Test.db` 查看数据库情况。
 默认表名字为`COMPANY`
@@ -90,6 +90,24 @@ select * from COMPANY;
 ```
 查看表中数据
 
+删除行:
+```
+DELETE FROM table_name
+WHERE [condition];
+```
+添加行：
+```
+INSERT INTO TABLE_NAME (column1, column2, column3,...columnN)]  
+VALUES (value1, value2, value3,...valueN);      
+or     
+INSERT INTO TABLE_NAME VALUES (value1,value2,value3,...valueN);
+```
+更新行：
+```
+UPDATE table_name
+SET column1 = value1, column2 = value2...., columnN = valueN
+WHERE [condition];
+```
 ### 默认表的详细信息
 默认的表有11列。     
 1.ID：主键   
@@ -101,7 +119,7 @@ select * from COMPANY;
 7.ACTUAL_DATE：实际到货日期   
 8:BRAND：厂家   
 9.MAIL_DATE：发货日期   
-10.DELETE_F：删除旗标   
+10.DELETE_F：删除旗标   //如果值为'DEL_F'该行不会在网站上显示出
 11.comment：注释（未用）   
 
 ## License
