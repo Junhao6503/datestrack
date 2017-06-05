@@ -105,4 +105,5 @@ select * from COMPANY;
 11.comment：注释（未用）   
 
 ## License
-本网站使用了[Bootstrap](http://https://github.com/twbs/bootstrap/tree/master)
+本网站使用了[Bootstrap](http://https://github.com/twbs/bootstrap/tree/master)。
+Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
