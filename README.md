@@ -3,7 +3,7 @@
 ## Intro
 
 此网站用于追踪购买货期，请在公司内网连接SD_1F路由器后访问[货期查询表](http://192.168.3.21)
-
+此网站依靠PHP, Nginx, sqlite, 
 ## Prerequisites
 
 你需要有一台安装了php7.0, sqlite3/MySql, Nginx/Apache环境的Linux机器。
@@ -67,7 +67,7 @@ php -f mech_page.php
 ```bash
 ls /var/www
 ```
-查看是否有`Test.db`数据库文件，如果`Test.db`文件存在，请运行`chmod 777 Test.db`更改数据库权限至全用户可读写，或把root目录文件夹切换为全用户可读写。
+查看是否有`Test.db`数据库文件，如果`Test.db`文件存在，请运行`chmod 777 /var/www/Test.db`更改数据库权限至全用户可读写，或把root目录文件夹切换为全用户可读写。
 
 打开浏览器，在地址栏输入Linux机器的固定ip访问网页。
 
