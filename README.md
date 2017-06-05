@@ -119,7 +119,7 @@ WHERE [condition];
 7.ACTUAL_DATE：实际到货日期   
 8:BRAND：厂家   
 9.MAIL_DATE：发货日期   
-10.DELETE_F：删除旗标   //如果值为'DEL_F'该行不会在网站上显示出
+10.DELETE_F：删除旗标   //如果值为'DEL_F'该行不会在网站上显示出      
 11.comment：注释（未用）   
 
 ## License
