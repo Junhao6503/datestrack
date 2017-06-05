@@ -92,15 +92,15 @@ select * from COMPANY;
 
 ### 默认表的详细信息
 默认的表有11列。
-1.ID：主键
-2.NAME：产品名称
-3.DEPARTMENT：部门
-4.AMOUNT：采购数量
-5.PURCHASE_DATE:购买日期
-6.EXPECT_DATE：预计到货日期
-7.ACTUAL_DATE：实际到货日期
-8:BRAND：厂家
-9.MAIL_DATE：发货日期
-10.DELETE_F：删除旗标
-11.comment：注释（未用）
+1.ID：主键   
+2.NAME：产品名称   
+3.DEPARTMENT：部门   
+4.AMOUNT：采购数量   
+5.PURCHASE_DATE:购买日期   
+6.EXPECT_DATE：预计到货日期   
+7.ACTUAL_DATE：实际到货日期   
+8:BRAND：厂家   
+9.MAIL_DATE：发货日期   
+10.DELETE_F：删除旗标   
+11.comment：注释（未用）   
 
