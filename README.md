@@ -1,12 +1,12 @@
-# datestrack
+# 货期查询网站
 
 ## Intro
 
-这个网站用于追踪购买货期，请在公司内网连接SD_1F路由器后访问[货期查询表](http://192.168.3.21)
+此网站用于追踪购买货期，请在公司内网连接SD_1F路由器后访问[货期查询表](http://192.168.3.21)
 
 ## Prerequisites
 
-你需要有一台安装了php7.0， sqlite3/MySql, Nginx/Apache环境的Linux机器。
+你需要有一台安装了php7.0, sqlite3/MySql, Nginx/Apache环境的Linux机器。
 在此版本中，将以Nginx+PhP+sqlite3为环境。
 
 ### 安装Nginx
@@ -32,7 +32,7 @@ sudo /etc/init.d/nginx start
 ```bash
 sudo nano /etc/nginx/sites-available/default
 ```
-找到root行，修改目录，建议修改为：（此为第一版本Nginx根目录）
+找到root行，修改目录，建议修改为：（此为在Orangepi上第一版本Nginx根目录）
 ```
 /var/www
 ```
