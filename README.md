@@ -72,7 +72,7 @@ ls /var/www
 
 ## 关于sqlite
 
-用户可以随时运行`sqlite3 /var/www` 查看数据库情况。
+用户可以随时运行`sqlite3 /var/www/Test.db` 查看数据库情况。
 默认表名字为`COMPANY`
 
 进入sqlite3之后运行
