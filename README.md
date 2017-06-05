@@ -104,3 +104,5 @@ select * from COMPANY;
 10.DELETE_F：删除旗标   
 11.comment：注释（未用）   
 
+## License
+本网站使用了[Bootstrap](http://https://github.com/twbs/bootstrap/tree/master)
